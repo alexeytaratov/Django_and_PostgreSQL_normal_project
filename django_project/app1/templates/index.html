@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <div class="container">
+        {% for x in obj %}
+        <div class="row">
+            <div class="com-lg-5 col-md-5 col-12">
+                {{x.name}}
+            </div>
+            <div class="com-lg-5 col-md-5 col-12">
+                {{x.des}}
+            </div>
+            <br>
+        </div>
+        {% endfor %}
+    </div>
+
+
+</body>
+</html>
